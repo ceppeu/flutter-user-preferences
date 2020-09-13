@@ -2,6 +2,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:user_preferences/src/pages/home_page.dart';
 
 class UserPreferences {
+  //* Recordar instalar el paquete shared_preferences
+  //* Recordar modificar en main.dart lo pertintente
+
   static final UserPreferences _instance = new UserPreferences._();
 
   factory UserPreferences() {
